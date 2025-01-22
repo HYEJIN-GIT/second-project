@@ -1,0 +1,174 @@
+body{
+    margin:0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color:white;
+  }
+  
+  nav{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  a{
+      text-decoration: none;
+      font-weight: 700;
+    
+  }
+  
+  a:hover{
+    color:#1ed760;
+  }
+  .bar-style{
+    color: white;
+    padding: 28px 17px;
+  }
+  main{
+    height: 969px;
+    background-color:rgb(41, 65, 171);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-position: 45% -15%;
+  }
+  
+  
+  .headline{
+    font-size: 146px;
+    line-height: 166px;
+    color: #1ed760;
+    font-weight: 900;
+    position: relative;
+    left: 280px;
+    padding-bottom: 40px;
+  }
+  
+  .first{
+    position: relative;
+    left: -2.5em;
+  }
+  
+  .sub{
+     color:#1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+  
+  .button-area{
+    text-align: center;
+  }
+  
+  .btn{
+    padding:14px 32px;
+    background-color:#1ed760; 
+    border:none;
+    border-radius: 500px;
+    color: #2941ab;
+    font-weight: 700;
+  }
+  
+  .btn:hover{
+    transform: scale(1.1);
+  }
+  footer{
+    background-color: black;
+    height: 450px;
+    
+  }
+  
+  .cd-ontainer{
+  
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left:110px;
+    display: flex;
+    flex-direction:column;
+    position:relative;
+  }
+  
+  .one{
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  .one-1{
+    display:flex;
+     justify-content:space-between;
+    width:60%;
+    
+  }
+  
+  .one-2{
+       
+        padding: 0px 15px;
+       display:flex;
+    flex-direction:column;
+    
+    }
+  
+  .one-3{
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+  }
+  
+  .two{
+  
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  
+  }
+  
+  .a-s{
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+    font-weight:1;
+    color:white;
+  }
+  
+  .icon-1{
+       width: 54px;
+        height: 54px;
+        background-color: #222322;
+        border-radius: 50%;
+        margin-right: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+  
+  .icon:hover{
+    color:#1ed760;
+  }
+  
+  .three{
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+  }
+  
+  
+  .line{
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+  
+    
+  }
+  .line-1{
+    margin-right: 24px;
+    color: #919496;
+    font-weight:1;
+  }
